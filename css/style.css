@@ -1,0 +1,35 @@
+.section{
+	background-color:#00A5E7;
+	min-height:600px;
+	position: relative;
+}
+.child1,.child2,.child3,.child4,.child5{
+	width:15%;
+	min-height:200px;
+	position: absolute;
+}
+.child1{
+	background-color:green;
+}
+.child2{
+	background-color:blue;
+	right: 0;
+	top: 0;
+}
+.child3{
+	background-color:aqua;
+	bottom:0;
+	left:0;
+}
+.child4{
+	background-color:yellow;
+	bottom:0;
+	right:0;
+}
+.child5{
+	background-color:pink;
+	left:0;
+	right:0;
+	margin:200px auto;
+}
+
